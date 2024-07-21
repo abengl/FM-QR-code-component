@@ -1,12 +1,9 @@
-# Frontend Mentor - QR code component solution
-
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+# QR Code Component
 
 ## Table of contents
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -16,17 +13,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 <figure>
-  <img src="./images/desktop.png" width="300">
+  <img src="./images/desktop.png" width="700">
   <figcaption>Fig.1 - Desktop Version</figcaption>
 </figure>
 <figure>
-  <img src="./images/mobile.png" width="100">
+  <img src="./images/mobile.png" width="250">
   <figcaption>Fig.2 - Mobile Version</figcaption>
 </figure>
-
-### Links
-
-- Live Site URL: [Website](https://your-live-site-url.com)
 
 ## My process
 
@@ -61,4 +54,5 @@ Here is an example of how variables are declared in the `:root` selector:
     --fw-bold: 700;
 }
 ```
-Thank you for checking out my QR Code Component solution. I hope you find it helpful and insightful. If you have any questions or feedback, please feel free to reach out!
+Thank you for checking out my QR Code Component solution. I hope you find it helpful and insightful. If you have any questions or feedback, please feel free to reach out! 🌠
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
