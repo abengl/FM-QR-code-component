@@ -13,11 +13,11 @@
 
 ### Screenshot
 <figure>
-  <img src="./images/desktop.png" width="700">
+  <img src="src/images/desktop.png" width="700">
   <figcaption>Fig.1 - Desktop Version</figcaption>
 </figure>
 <figure>
-  <img src="./images/mobile.png" width="250">
+  <img src="src/images/mobile.png" width="250">
   <figcaption>Fig.2 - Mobile Version</figcaption>
 </figure>
 
