@@ -1,6 +1,7 @@
 # Frontend Mentor - QR code component solution
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -9,27 +10,28 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### Screenshot
-
-![Desktop Version](./images/desktop.png)
-![Mobile Version](./images/mobile.png)
-
+<figure>
+  <img src="./images/desktop.png" width="300">
+  <figcaption>Fig.1 - Desktop Version</figcaption>
+</figure>
+<figure>
+  <img src="./images/mobile.png" width="100">
+  <figcaption>Fig.2 - Mobile Version</figcaption>
+</figure>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Website](https://your-live-site-url.com)
 
 ## My process
+
+The QR Code Component project focuses on creating a responsive, visually appealing QR code component. The goal was to implement a clean and simple design that adapts seamlessly across different devices, utilizing modern CSS techniques to ensure optimal performance and aesthetics. 
+
 
 ### Built with
 
@@ -38,52 +40,25 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 
 ### What I learned
+I learned to effectively use CSS custom properties (variables) to manage design attributes more efficiently. Declaring variables in the `:root` selector allows for consistent styling across the entire project and simplifies future updates.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Here is an example of how variables are declared in the `:root` selector:
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+:root {
+    --clr-neutral-100: rgba(255, 255, 255, 1);
+    --clr-neutral-300: rgba(213, 225, 239, 1);
+
+    --clr-font-dark: rgba(31, 49, 79, 1);
+    --clr-font-light: rgba(125, 136, 158, 1);
+
+    --ff-sans: "Outfit";
+
+    --fs-400: 0.9375rem;
+    --fs-700: 1.375rem;
+
+    --fw-normal: 400;
+    --fw-bold: 700;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thank you for checking out my QR Code Component solution. I hope you find it helpful and insightful. If you have any questions or feedback, please feel free to reach out!
